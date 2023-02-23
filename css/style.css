@@ -1,0 +1,98 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+
+body {
+    margin: 0;
+    font-family: Open Sans;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: Poppins;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Custom design below! */
+
+
+/* Hero/Banner section styles */
+
+.hero {
+    background-image: url('background.png');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+
+/* How it Works section styles */
+
+.how-it-works {
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.how-it-works h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.how-it-works ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.how-it-works li {
+    flex-basis: 30%;
+}
+
+.how-it-works img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+
+/* Image files */
+
+.hero-image {
+    background-image: url('product.svg');
+}
+
+.step-1 {
+    background-image: url('apply.svg');
+}
+
+.step-2 {
+    background-image: url('learn.svg');
+}
